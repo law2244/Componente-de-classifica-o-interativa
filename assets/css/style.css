@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Lato:wght@400;900&family=Overpass:wght@400;700&family=Roboto:wght@100;700&display=swap');
+body{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #131519;
+    font-family: Overpass;
+
+}
+.conteiner{
+    background-color: #212932; 
+    padding: 20px;
+    border-radius: 25px;
+}
+.conteiner .img1{
+    background-color: #252C35;
+    padding: 15px;
+    clip-path: circle()
+}
+.conteiner h3{
+    color: #D8DEE4;
+    font-size: 24px;
+    font-weight: bold
+}
+.conteiner p{
+    color: #959EAC;
+    margin-top: -1rem;
+    font-size: 15px;
+    line-height: 22px;
+}
+.numbers_notas{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around
+}
+.numbers_notas span{
+    background-color:  #252C35;
+    padding: 18px;
+    color: #959EAC;
+    font-size: 12px;
+    clip-path: circle();
+    margin: 0 5px
+}
+.numbers_notas span:hover{
+    background-color:  #FB7413;
+    color: #fff;
+}
+.numbers_notas span:focus{
+    background-color:  #7D8693;
+}
+.conteiner button{
+    width: 100%;
+    padding: 10px 0;
+    border: 0;
+    border-radius: 30px;
+    background-color: #FB7413;
+    margin-top: 25px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #D8DEE4;
+    font-size: 12px;
+    transition-duration: 0.5s ;
+}
+.conteiner button:hover{
+    background-color:#fff;
+    color:#FB7413;
+}
+
+/* class js */
+
+.classMostrarNotas{
+    margin-top: 20px;
+    padding: 5px 20px;
+    background-color: #252C35;
+    color: #FB7413;
+    border-radius: 30px;
+    font-size: 14px
+
+}
